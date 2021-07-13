@@ -1,0 +1,11 @@
+{
+  "python.linting.pylintArgs": [
+    "--load-plugins",
+    "pylint_django",
+    "--django-settings-module=mysite.settings",
+    "--disable=C0111"
+  ],
+  "python.linting.pydocstyleArgs": ["--ignore=D4"],
+  "python.linting.pylintEnabled": true,
+  "python.linting.enabled": true
+}
